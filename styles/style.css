@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
+  width: 100%;
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1180px;
+}
+
+h1 {
+  width: 956px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  color: #121212;
+}
+
+section,
+header {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 27px;
+  position: relative;
+  height: 765px;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/orlov-img.png);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__item {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.nav__icon {
+  padding: 4px 0;
+  width: 130px;
+  height: 39px;
+  text-align: center;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/header-icon.png);
+}
+
+.nav__text {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #1bff07;
+}
+
+.header__contant {
+  position: absolute;
+  left: 119px;
+  bottom: 94px;
+}
+
+.header__descr {
+  margin-bottom: 29px;
+  max-width: 445px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.header__title {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+  color: #1bff07;
+}
